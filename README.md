@@ -20,8 +20,15 @@ Margins, paddings, and borders.
 >  - Style an image
 >  - Margin, Padding & Borders
 >  - Different font
->
->    <!DOCTYPE html>
+
+# Tasks
+ - Link an external CSS file.
+ - Apply at least 3 different selectors.
+ - Improve readability and aesthetics.
+
+Happy Coding! 💻✨
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -58,44 +65,33 @@ Margins, paddings, and borders.
 </html>
 
 
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
-
-/* Styling an ID */
 #intro {
     font-size: 18px;
     color: #333;
     padding: 10px;
     border-left: 4px solid #007bff;
 }
-
-/* Styling a Class */
-.title {
+title {
     color: #007bff;
     text-align: center;
     font-size: 28px;
 }
-
-/* Another Class Selector */
 .subtitle {
     color: #ff6600;
     font-weight: bold;
 }
-
-/* Styling an Image */
 .styled-image {
     width: 300px;
     border-radius: 10px;
     margin: 20px auto;
     display: block;
 }
-
-/* Styling a Navigation Menu */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -103,19 +99,15 @@ nav ul {
     overflow: hidden;
     text-align: center;
 }
-
 nav ul li {
     display: inline;
     margin: 0 10px;
 }
-
 nav ul li a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
 }
-
-/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px;
@@ -123,11 +115,3 @@ footer {
     color: white;
     margin-top: 20px;
 }
-
-
-# Tasks
- - Link an external CSS file.
- - Apply at least 3 different selectors.
- - Improve readability and aesthetics.
-
-Happy Coding! 💻✨
